@@ -79,15 +79,22 @@ void display(){
   }
 }
 
-/*void RotateEyes(){
-  if (isFull){
-    aa = 299;
-  }else{
-    aa = a;
-  }
-  for (int i=0;i<aa;i++){
-    //ellipse(piggies[i].xPos+xEye1,piggies[i].yPos+yEye1,5,5);
+class Piggy{
+  float xCenter;
+  float yCenter;
+  float xPos;
+  float yPos;
+  
+  
+  Piggy(float xPos_,float yPos_){
+    xPos = xPos_;
+    yPos = yPos_;
+    xCenter = xPos+50;
+    yCenter = yPos+50;
+    
+    
+    image(piggyPic,xPos,yPos);
+    
     
   }
 }
-*/
