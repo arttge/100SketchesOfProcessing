@@ -3,7 +3,7 @@ float[] points = new float[5];
 float[] rotates = new float[5];
 
 void setup(){
-  size(300,300);
+  size(400,400);
   translate(width/2,height/2);
   
 }

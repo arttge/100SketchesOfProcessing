@@ -9,3 +9,6 @@ A self-taught project to learn Processing.
 
 ## Project003 Rotation
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/rotation.gif)
+
+## Project004 MirroredLine
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/line.gif)
