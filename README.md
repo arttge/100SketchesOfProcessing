@@ -6,3 +6,6 @@ A self-taught project to learn Processing.
 
 ## Project002 ShadowOfGrid
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/grid.gif)
+
+## Project003 Rotation
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/rotation.gif)
