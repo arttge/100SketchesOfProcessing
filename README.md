@@ -15,3 +15,6 @@ A self-taught project to learn Processing.
 
 ## Project005 GravitationalAttraction
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/gravity.gif)
+
+## Project006 RotationalDrawing
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/RotationalDrawing.png)
