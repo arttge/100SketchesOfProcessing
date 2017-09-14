@@ -1,13 +1,10 @@
-float ax,ay,bx,by,ar,br;
-float angleA,angleB;
+
+PVector a = new PVector(150,0);
+PVector b = new PVector(0,75);
 
 void setup(){
   size(400,400);
   
-  ar = 150;
-  br = 75;
-  angleA = 0;
-  angleB = PI/4;
   
 }
 
@@ -15,31 +12,23 @@ void draw(){
   background(184,233,134);
   noStroke();
   translate(width/2,height/2);
-  angleA += 0.03;
-  angleB += 0.01;
-  ax = ar*sin(angleA);
-  ay = ar*cos(angleA);
-  bx = br*sin(angleB);
-  by = br*cos(angleB);
+  a.rotate(0.03);
+  b.rotate(0.01);
   
-  ellipse(ax, ay, 5, 5);
-  ellipse(-ax, ay, 5, 5);
-  ellipse(ax, -ay, 5, 5);
-  ellipse(-ax,-ay, 5, 5);
-  ellipse(bx, by, 10, 10);
-  ellipse(bx, -by, 10, 10);
-  ellipse(-bx, by, 10, 10);
-  ellipse(-bx,-by, 10, 10);
+  ellipse(a.x, a.y, 5, 5);
+  ellipse(-a.x, a.y, 5, 5);
+  ellipse(a.x, -a.y, 5, 5);
+  ellipse(-a.x,-a.y, 5, 5);
+  ellipse(b.x, b.y, 10, 10);
+  ellipse(b.x, -b.y, 10, 10);
+  ellipse(-b.x, b.y, 10, 10);
+  ellipse(-b.x,-b.y, 10, 10);
   stroke(255);
   strokeWeight(3);
   
-  line(ax, ay,bx , by);
-  line(-ax,-ay,-bx , -by);
-  line(-ax, ay,-bx , by);
-  line(ax, -ay,bx , -by);
-
-
-  
-  
+  line(a.x,a.y,b.x,b.y);
+  line(-a.x,-a.y,-b.x,-b.y);
+  line(-a.x,a.y,-b.x,b.y);
+  line(a.x,-a.y,b.x,-b.y);
   
 }
