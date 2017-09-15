@@ -18,3 +18,6 @@ A self-taught project to learn Processing.
 
 ## Project006 RotationalDrawing
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/RotationalDrawing.png)
+
+## Project007 RotateSphere
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/rotateSphere.gif)
