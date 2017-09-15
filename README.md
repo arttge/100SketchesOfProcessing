@@ -21,3 +21,6 @@ A self-taught project to learn Processing.
 
 ## Project007 RotateSphere
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/rotateSphere.gif)
+
+## Project008 elementaryCA
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/CA.gif)
