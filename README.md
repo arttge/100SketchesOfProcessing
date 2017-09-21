@@ -30,3 +30,6 @@ A self-taught project to learn Processing.
 
 ## Project010 LSystem
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/010.png)
+
+## Project011 mimiCat
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/011.gif)
