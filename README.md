@@ -33,3 +33,6 @@ A self-taught project to learn Processing.
 
 ## Project011 mimiCat
 ![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/011.gif)
+
+## Project012 AligningArrow
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/arrow.gif)
