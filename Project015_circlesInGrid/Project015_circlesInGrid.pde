@@ -6,13 +6,15 @@ int circleMax = 20;
 void setup(){
    size(600,600);
    smooth();
-   randomSeed(0);
+
 
 }
 
 void draw(){
   background(255);
   noFill();
+
+  randomSeed(1);
 
   float tileSize = width/tileCount;
 
@@ -36,20 +38,20 @@ void draw(){
         case 1:
         dxOff = offset/circleCount;
         break;
-        case 2;
+        case 2:
         dyOff = offset/circleCount;
         break;
-        case 3;
+        case 3:
         dyOff = -offset/circleCount;
         break;
       }
 
 
       // draw circles
-      for(int count;count<circleCount;count++){
+      for(int count=0;count<circleCount;count++){
         pushMatrix();
-        translate(posX+dxOff*count,y+dyOff*count);
-        ellipse(0,0,offset,height)
+        translate(posX+dxOff*count,posY+dyOff*count);
+        ellipse(0,0,tileSize-offset/circleCount*2*count,tileSize-offset/circleCount*2*count);
         popMatrix();
       }
 
