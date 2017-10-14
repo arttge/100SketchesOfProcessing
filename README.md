@@ -48,4 +48,8 @@ A self-taught project to learn Processing.
 
 ## Project016 p5test
 Start to trying p5.js.
-![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/015.png)
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/016.png)
+
+## Project017 randomWalker
+Start to trying p5.js.
+![image](https://github.com/arttge/100SketchesOfProcessing/blob/master/data/017.png)
